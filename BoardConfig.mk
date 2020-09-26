@@ -6,6 +6,9 @@ DEVICE_PATH := device/samsung/beyond2qlte
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Headers
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hidl/fingerprint/inscreen/include
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := beyond2qlte,beyond2qltesq
 
