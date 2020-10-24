@@ -7,7 +7,7 @@ LOCAL_PATH := hardware/samsung/hidl/fingerprint
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.1-service.samsung-beyond2qlte
+LOCAL_MODULE := android.hardware.biometrics.fingerprint@2.1-service.samsung-beyond1qlte
 LOCAL_MODULE_TAGS  := optional
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PLATFORM_VNDK_VERSION)/bin

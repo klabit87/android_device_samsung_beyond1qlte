@@ -1,8 +1,8 @@
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beyond2qlte.mk
+    $(LOCAL_DIR)/lineage_beyond1qlte.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_beyond2qlte-user \
-	lineage_beyond2qlte-userdebug \
-	lineage_beyond2qlte-eng
+	lineage_beyond1qlte-user \
+	lineage_beyond1qlte-userdebug \
+	lineage_beyond1qlte-eng

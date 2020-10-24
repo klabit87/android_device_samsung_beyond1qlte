@@ -5,7 +5,7 @@
 set -e
 
 # Required!
-export DEVICE=beyond2qlte
+export DEVICE=beyond1qlte
 export DEVICE_COMMON=sm8150-common
 export VENDOR=samsung
 
